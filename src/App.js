@@ -23,18 +23,18 @@ function Submit(){
   let pword = document.getElementById("pword").value;
   let encoded = `${btoa(`${uname}:${pword}`)}`;
 
-  // try {
-  //   fetch(url, {
-  //     method: 'POST',
-  //     headers:{
-  //       Authorization: `${btoa(`${uname}:${pword}`)}`
-  //     }
-  //   });
-  //   console.log(test);
+  try {
+    fetch(url, {
+      method: 'POST',
+      headers:{
+        Authorization: `${btoa(`${uname}:${pword}`)}`
+      }
+    });
+    console.log(test);
     
-  // } catch (error) {console.log(error);
+  } catch (error) {console.log(error);
     
-  // }
+  }
 }
 
 export default App;
