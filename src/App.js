@@ -35,8 +35,10 @@ function Start() {
       <header className="App-header">
         {/* <button id="Log in" onClick={login}>Log in</button> */}
         <h1>E-Recipes</h1>
+        
         <h2>This site lists some recipes</h2>
         <h3>Filter here:</h3><input type="text" id="searchbar"></input><br />
+        
         <button onClick={filter}>Click here to filter</button>
       </header>
       
