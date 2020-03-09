@@ -12,7 +12,7 @@ function Footer() {
   </footer>
 }
 
-function Start() {
+function Start(props) {
 
   async function filter() {
     let input = document.getElementById("searchbar").value;
