@@ -14,3 +14,7 @@ code {
 .data{
   color: white;
 }
+ul{
+  list-style: none;
+  text-align: center;
+}

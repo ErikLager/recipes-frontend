@@ -47,11 +47,17 @@ function Start(props) {
         <button onClick={filter}>Click here to filter</button>
       </header>
       <main>
-        {currentData && currentData.map(recipe => 
-          <div className="data">
+        {currentData && currentData.map((recipe, index) => 
+          <div className="data" key={index}>
             <p>{recipe.name}</p>
             <img src={recipe.picure} />
             <p>{recipe.stepGuide}</p>
+            <ul>
+              {recipe.commodity.map((commodity, index) => 
+                <li key={index}>
+                  {commodity}
+                </li>)}
+            </ul>
           </div>
         )}
       </main>
