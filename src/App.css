@@ -21,3 +21,25 @@ footer{
   /* height: 93vh; */
   color: white;
 }
+.data{
+  color: white;
+}
+.dataTable{
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7c90bb;
+  border-style: double;
+  font-size: xx-large;
+}
+.title{
+  font-size: x-large;
+}
+img{
+  width: 150px;
+  height: 127px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}

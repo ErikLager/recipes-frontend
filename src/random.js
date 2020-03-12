@@ -2,8 +2,8 @@
  * Get the data form the back end
  */
 
-export async function getData(input){
-    const result = await fetch (`/Recipes/search/${input}`,{
+export async function randomRec(){
+    const result = await fetch (`/Recipes/random`,{
         method:"GET"
     });
     console.log(result);
